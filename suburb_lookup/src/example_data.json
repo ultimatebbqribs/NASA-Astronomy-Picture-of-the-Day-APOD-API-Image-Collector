@@ -1,0 +1,49 @@
+[
+    {
+        "date": "1996-10-22",
+        "explanation": "What caused the cracks in this giant ice-ball?\r Jupiter's moon Europa\r has smoothest surface in the solar system and is composed mostly\r of cracked water-ice. In the above false-colored picture\r released last week by the NASA team\r in charge of the Galileo mission,\r blue hues represent ice plains divided by dirty red and brown\r bands of mottled terrain. As the robot Galileo spacecraft orbits\r Jupiter, it sends back revealing pictures of Jupiter and\r its large moons\r including Europa, Io,\r Ganymede, and Callisto.\r The region of Europa\r highlighted above is known as Minos Linea. The cause for many\r of the cracks remains unknown but may involve shifting stresses\r from gravity and temperature variations. The new Galileo pictures\r have increased evidence that liquid oceans may indeed exist\r under these giant ice-sheets, a place possibly ripe for the development of life.\r",
+        "hdurl": "https://apod.nasa.gov/apod/image/europacracks_gal_big.jpg",
+        "media_type": "image",
+        "service_version": "v1",
+        "title": "The Cracked Ice Plains of Europa",
+        "url": "https://apod.nasa.gov/apod/image/europacracks_gal.gif"
+    },
+    {
+        "date": "1996-10-26",
+        "explanation": "The Russian space station Mir\r was photographed last month\r high above New Zealand.\r Before returning with record-breaking astronaut Shannon Lucid,\r the space shuttle Atlantis crew took this breathtaking view\r from the Space Shuttle Atlantis.\r Atlantis had just undocked from Mir\r and was preparing to return to Earth.\r \r",
+        "hdurl": "https://apod.nasa.gov/apod/image/mirnewzea_sts79_big.jpg",
+        "media_type": "image",
+        "service_version": "v1",
+        "title": "Mir Over New Zealand\r\nCredit:",
+        "url": "https://apod.nasa.gov/apod/image/mirnewzea_sts79.gif"
+    },
+    {
+        "copyright": "Adam Block",
+        "date": "2005-06-03",
+        "explanation": "The first hint of what will become of our Sun was discovered inadvertently in 1764.  At that time, Charles Messier was compiling a list of diffuse objects not to be confused with comets.  The 27th object on Messier's list, now known as M27 or the Dumbbell Nebula, is a planetary nebula, the type of nebula our Sun will produce when nuclear fusion stops in its core.  M27 is one of the brightest planetary nebulae on the sky, and can be seen in the constellation Vulpecula with binoculars.  It takes light about 1000 years to reach us from M27,  shown above, digitally sharpened, in three standard colors. Understanding the physics and significance of M27 was well beyond 18th century science.  Even today, many things remain mysterious about bipolar planetary nebula like M27, including the physical mechanism that expels a low-mass star's gaseous outer-envelope, leaving an X-ray hot white dwarf.",
+        "hdurl": "https://apod.nasa.gov/apod/image/0506/m27_metcalf_big.jpg",
+        "media_type": "image",
+        "service_version": "v1",
+        "title": "M27: The Dumbbell Nebula",
+        "url": "https://apod.nasa.gov/apod/image/0506/m27_metcalf.jpg"
+    },
+    {
+        "date": "2017-10-03",
+        "explanation": "Why is there a large ice ring around Fomalhaut? This interesting star -- easily visible in the night sky -- lies only about 25 light-years away and is known to be orbited by at least one planet, Dagon, as well as several inner dust disks.  More intriguing, perhaps, is an outer ring, first discovered about 20 years ago, that has an unusually sharp inner boundary. The featured recent image by the Atacama Large Millimeter Array (ALMA) shows this outer ring with complete and unprecedented detail -- in pink -- superposed on a Hubble image of the Fomalhaut system in blue.  A leading theory holds that this ring resulted from numerous violent collisions involving icy comets and planetesimals, the component objects of planets, while the ring boundaries are caused by the gravity of yet unseen planets.  If correct, any interior planets in the Fomalhaut system are likely being continually pelted by large meteors and comets -- an onslaught last seen in our own planetary system four billion years ago in an episode called the Late Heavy Bombardment.    Free Download: The 2018 APOD Calendar",
+        "hdurl": "https://apod.nasa.gov/apod/image/1710/FomalhautRing_ALMA_2064.jpg",
+        "media_type": "image",
+        "service_version": "v1",
+        "title": "Ice Ring around Nearby Star Fomalhaut",
+        "url": "https://apod.nasa.gov/apod/image/1710/FomalhautRing_ALMA_1080.jpg"
+    },
+    {
+        "copyright": "Ignacio de la Cueva\nTorregrosa",
+        "date": "2007-08-10",
+        "explanation": "Sculpted by stellar winds and radiation, the star factory known as Messier 17 lies some 5,500 light-years away in the nebula-rich constellation Sagittarius. At that distance, this 30 arcminute field of view spans almost 50 light-years. Stellar winds and energetic light from hot, massive stars formed from M17's stock of cosmic gas and dust have slowly carved away at the remaining interstellar material producing the cavernous appearance and undulating shapes. Colors in the gorgeous image were picked to emphasize light emitted by specific elements in the nebula excited by the energetic starlight. Red indicates emission from sulfur, green from hydrogen, and blue from oxygen. M17 is also known as the Omega Nebula or the Swan Nebula.",
+        "hdurl": "https://apod.nasa.gov/apod/image/0708/m17x1600ignacio.jpg",
+        "media_type": "image",
+        "service_version": "v1",
+        "title": "Star Factory Messier 17",
+        "url": "https://apod.nasa.gov/apod/image/0708/m17x800ignacio.jpg"
+    }
+]

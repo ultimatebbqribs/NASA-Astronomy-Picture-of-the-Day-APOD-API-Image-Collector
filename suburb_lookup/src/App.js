@@ -1,13 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import LandingPage from './LandingPage';
+import MainPinboard from './MainPinboard';
+import { Route, Routes, Link } from "react-router-dom"
+
 
 function App() {
   return (
-    <div>
-      <LandingPage />
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/main" element={<MainPinboard />} />
 
-    </div>
+      <Route path="/main/:searchTerm" element={<MainPinboard />} />
+
+      </Routes>
   );
 }
 
