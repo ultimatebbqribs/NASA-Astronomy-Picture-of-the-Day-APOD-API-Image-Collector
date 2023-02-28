@@ -4,6 +4,10 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
+
+
+import './styles/modal_style.css'
+
 import { useState } from 'react';
 
 
@@ -13,11 +17,14 @@ const style = {
     left: '50%',
     transform: 'translate(-50%, -50%)',
     width: 900,
-    height:600,
-    bgcolor: 'background.paper',
+    height: 600,
+    bgcolor: 'black',
     border: '2px solid #000',
     boxShadow: 24,
     p: 4,
+    display: 'flex',
+
+
 };
 
 export default function PinModal(props) {
@@ -33,14 +40,17 @@ export default function PinModal(props) {
                 onClose={handleClose}
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
+                className='modal_box'
             >
                 <Box sx={style}>
                     <img className='modal_image' src={props.img}></img>
-                    <Typography id="modal-modal-title" variant="h6" component="h2">
+                    <Typography className='modal_title' id="modal-modal-title" variant="h6" component="h2" sx={{ color: 'white' }}>
                         {props.title}
                     </Typography>
-                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                        {props.explanation}
+                    <Typography
+                        className='modal_description' id="modal-modal-description" sx={{ mt: 2, color: 'white' }}>
+                        <div className='scrolling_text'> {props.explanation}</div>
+
                     </Typography>
                 </Box>
             </Modal>

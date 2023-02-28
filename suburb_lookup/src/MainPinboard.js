@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 import axios from 'axios';
 import {useParams} from 'react-router-dom'
 import example_data from './example_data.json'
-import './mainboard.css'
+import './styles/mainboard.css'
 
 const API_KEY = process.env.REACT_APP_API_KEY
 
@@ -19,7 +19,7 @@ export default function MainPinboard(props) {
     const params = useParams()
     const getItems = async () => {
         try {
-            const response = await axios.get(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}&count=21`);
+            const response = await axios.get(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}&count=9`);
             // const response = example_data
             setItems(response.data.filter((value)=>{
                 if(!params.searchTerm){

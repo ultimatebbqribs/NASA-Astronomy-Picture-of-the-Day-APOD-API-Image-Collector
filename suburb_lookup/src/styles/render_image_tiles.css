@@ -1,0 +1,22 @@
+@import url("https://use.typekit.net/fyd2guh.css");;
+
+.bottom_link_bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#board_heading{
+    color: white;
+    font-family: nasalization;
+}
+.heading_favorites{
+    font-family: nasalization;
+    color: white;
+    cursor: pointer;
+}
+.board_title_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

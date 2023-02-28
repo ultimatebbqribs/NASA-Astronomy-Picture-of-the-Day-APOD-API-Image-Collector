@@ -1,4 +1,4 @@
-import './landing_page.css'
+import './styles/landing_page.css'
 import axios from 'axios';
 import { useState } from 'react';
 import * as React from "react";
