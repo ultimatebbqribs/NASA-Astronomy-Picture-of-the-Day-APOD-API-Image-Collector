@@ -11,6 +11,7 @@
     margin-right: auto;
     object-fit:cover;
     overflow: hidden;
+    cursor: pointer;
     }
 
 .modal_title{

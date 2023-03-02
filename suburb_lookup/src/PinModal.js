@@ -43,7 +43,11 @@ export default function PinModal(props) {
                 className='modal_box'
             >
                 <Box sx={style}>
-                    <img className='modal_image' src={props.img}></img>
+                    <img 
+                    className='modal_image' 
+                    src={props.img} 
+                    onClick={() => window.open(props.img)}
+                    ></img>
                     <Typography className='modal_title' id="modal-modal-title" variant="h6" component="h2" sx={{ color: 'white' }}>
                         {props.title}
                     </Typography>

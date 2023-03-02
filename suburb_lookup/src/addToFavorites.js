@@ -1,3 +1,3 @@
-export default function clickFavorite(){
+export default function addToFavorites(){
     alert('favorite was clicked')
 }
