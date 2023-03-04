@@ -12,6 +12,7 @@ import { useState, useEffect } from "react";
 
 import PinModal from "./PinModal";
 
+// renders favorited items from local storage + function to delete from favorites 
 export default function Favorites() {
     const [favorites, setFavorites] = useState([])
     // retrieves all items from local storage as individual objects 
@@ -26,16 +27,17 @@ export default function Favorites() {
         item_array.push(itemObject)
     }
 
-
+    // assigns favorites into state so delete function will update page render 
     useEffect(() => {
         setFavorites(item_array);
     }, []);
-    // console.log(favorites)
+
 
     function deleteFavorite(item){
+        // clears all local storage
         window.localStorage.clear()
         let newFavorites = [] 
-        // map conditional 
+        // map conditional to find remove delete item from favorites state array, adds new version to state and local storage 
         favorites.map(function(element){
             if(element.title !== item.title ){
                 console.log(element)
