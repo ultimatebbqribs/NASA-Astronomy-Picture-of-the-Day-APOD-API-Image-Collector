@@ -11,7 +11,7 @@ afterEach(cleanup);
 test('click event calls add to favorites function', ()=>{
     const addToFavoritesSpy = jest.fn();
     const { getByTestId } = render(
-        <RenderImageTiles addToFavorites={addToFavoritesSpy} />
+        <RenderImageTiles addToFavorites={addToFavoritesSpy} items={[]}/>
       );
 
       fireEvent.click(getByTestId("add_to_favorites"));

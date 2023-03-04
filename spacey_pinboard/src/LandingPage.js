@@ -13,8 +13,8 @@ export default function LandingPage() {
     return <div>
         <div className="landing_background">
             <div className='landing_content'>
-                <p1 id="landing_heading">NASA Pintrest </p1>
-                <p4>A spacey pintrest board - powered by the NASA API</p4>
+                <h1 id="landing_heading">NASA Pintrest </h1>
+                <h4>A spacey pintrest board - powered by the NASA API</h4>
 
                 <Button className='launch_button' variant='contained' onClick={() => navigate('/main')}
                     sx={{
