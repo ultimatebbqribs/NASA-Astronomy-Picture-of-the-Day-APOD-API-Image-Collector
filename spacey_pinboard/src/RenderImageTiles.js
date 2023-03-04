@@ -1,13 +1,9 @@
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
-import ImageListItemBar from '@mui/material/ImageListItemBar';
 import Button from '@mui/material/Button';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import FavoriteIcon from '@mui/icons-material/Favorite';
 import './styles/render_image_tiles.css';
-import { Link, Outlet } from "react-router-dom"
-
-// import addToFavorites from "./addToFavorites";
+import { Link } from "react-router-dom"
 import { useState } from "react";
 
 import PinModal from "./PinModal";
@@ -18,34 +14,16 @@ const style = {
 };
 
 
-
+// Render main page of data retrieved from APOD API 
 export default function RenderImageTiles(props) {
-    const [favoriteIcon, setFavoriteIcon] = useState(null)
-    const [favorite, setFavorite] = useState([])
-    console.log(props.items)
-    // updates favorite icon and calls addToFavorites function
-    // every click adds the item into local storage 
+
+
+
+// passes favorite data into local storage 
     function addToFavorites(item) {
-        // pass array of objects - 
-        console.log(item)
         window.localStorage.setItem(item.title, JSON.stringify(item));
-        setFavorite()
-
-        setFavoriteIcon(true)
-
-        // addToFavorites()
     }
-    // conditional statement to check if favorite has been clicked then update icon - does not work yet 
-    // let favoriteButton
-    // if (!favoriteIcon) {
-    //     favoriteButton = <Button size="small"><FavoriteBorderIcon
-    //         onClick={() => addToFavorites(item)}
-    //         color="primary" /></Button>
-    // } else {
-    //     favoriteButton = <Button size="small"><FavoriteIcon
-    //     onClick={() => addToFavorites(item)}
-    //     color="primary" /></Button>
-    // }
+
 
     return (
         <div><div className="board_title_bar">
@@ -70,8 +48,8 @@ export default function RenderImageTiles(props) {
                                 explanation={item.explanation}
                             />
 
-                            <Button size="small"><FavoriteBorderIcon
-                                onClick={() => addToFavorites(item)}
+                            <Button   size="small"><FavoriteBorderIcon
+                                onClick={() => addToFavorites(item)} data-testid="add_to_favorites"
                                 color="primary" /></Button>
 
                         </div>

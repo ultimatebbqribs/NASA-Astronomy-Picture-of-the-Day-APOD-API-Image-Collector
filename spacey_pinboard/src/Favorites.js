@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined'
+import { Link, Outlet } from "react-router-dom"
 
 import './styles/render_image_tiles.css';
 import { useState, useEffect } from "react";
@@ -48,7 +49,7 @@ export default function Favorites() {
     return (
         <div><div className="board_title_bar">
             <h1 id="board_heading">Favorites</h1>
-            <div className="heading_favorites">Main</div>
+            <div className="heading_favorites"><Link to="/Main">Main</Link></div>
         </div>
             <ImageList variant="masonry" cols={3}>
                 {favorites.map((item) => (
