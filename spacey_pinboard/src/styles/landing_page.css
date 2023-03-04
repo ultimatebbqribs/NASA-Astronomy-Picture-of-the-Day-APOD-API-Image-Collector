@@ -25,6 +25,9 @@
     margin-right: auto;
     padding: 20px;
 }
+.launch_button{
+    align-self: center;
+}
 
 #landing_heading{
     font-family: nasalization;
